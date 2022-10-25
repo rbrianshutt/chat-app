@@ -6,9 +6,12 @@
     "start": "next start"
   },
   "dependencies": {
+    "firebase": "^9.12.1",
     "next": "latest",
     "react": "18.1.0",
-    "react-dom": "18.1.0"
+    "react-dom": "18.1.0",
+    "react-firebase-hooks": "^5.0.3",
+    "react-google-button": "^0.7.2"
   },
   "devDependencies": {
     "@types/node": "17.0.35",
