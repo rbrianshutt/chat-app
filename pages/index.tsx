@@ -1,4 +1,4 @@
-import type { NextPage } from 'next';
+import { NextPage } from 'next';
 import Head from 'next/head';
 import Image from 'next/image';
 import Navbar from '../components/Navbar';
@@ -6,7 +6,7 @@ import Chat from '../components/Chat';
 import { auth } from '../firebase';
 import { useAuthState } from 'react-firebase-hooks/auth';
 
-const Home: NextPage = () => {
+const Home = () => {
 	const [user] = useAuthState(auth);
 	//console.log(user)
 	return (
